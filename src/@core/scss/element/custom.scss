@@ -1,0 +1,80 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.is-active {
+  background-color: rgb(105, 108, 255) !important;
+}
+
+.data-table-wrapper {
+  .el-card__body {
+    padding: 0;
+  }
+}
+
+/* Custom styles for the table */
+.data-table {
+  font-family: Arial, sans-serif;
+}
+
+/* Style for table header */
+.el-table__header {
+  background-color: #f5f7fa; /* Light gray */
+  color: #333; /* Dark gray */
+  font-weight: bold; /* Bold text */
+}
+
+/* Style for table row */
+.el-table__row {
+  background-color: #fff; /* White */
+}
+
+/* Alternate row color */
+.el-table__row:nth-child(even) {
+  background-color: #f0f2f5; /* Lighter gray */
+}
+
+.data-table-wrapper {
+  .el-table__row:last-child {
+    .el-table__row__cell {
+      border-bottom: none !important;
+    }
+  }
+  .el-table__inner-wrapper:before {
+    height: 0;
+  }
+}
+
+.action-button {
+  &.edit {
+    outline: rgb(105, 108, 255) !important;
+    background: rgba(105, 108, 255, 0.19) !important;
+    i {
+        color: rgb(105, 108, 255) !important;
+    }
+    &:hover {
+      background: rgba(105, 108, 255, 0.24) !important;
+        border: 1px solid rgb(105, 108, 255) !important;
+    }
+  }
+    &.delete {
+        outline: rgba(255, 0, 0, 0.65) !important;
+        background: rgba(255, 0, 0, 0.16) !important;
+        i {
+            color: rgba(255, 0, 0, 0.74) !important;
+        }
+        &:hover {
+            background: rgba(255, 0, 0, 0.18) !important;
+            border: 1px solid rgba(255, 0, 0, 0.47) !important;
+        }
+    }
+}
+
+/* Custom styles for the pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
