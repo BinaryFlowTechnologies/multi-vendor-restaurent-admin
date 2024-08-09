@@ -41,7 +41,50 @@
         }"
       />
 
+      <VerticalNavSectionTitle
+        :item="{
+          heading: 'Menu',
+        }"
+      />
       <!-- 👉 Pages -->
+      <VerticalNavLink
+        :item="{
+          title: 'Items',
+          icon: 'bx-universal-access',
+          to: '',
+        }"
+      />
+
+      <VerticalNavLink
+        :item="{
+          title: 'Addons',
+          icon: 'bx-universal-access',
+          to: '',
+        }"
+      />
+
+      <VerticalNavLink
+        :item="{
+          title: 'Categories',
+          icon: 'bx-universal-access',
+          to: '',
+        }"
+      />
+
+      <VerticalNavSectionTitle
+        :item="{
+          heading: 'Restaurants',
+        }"
+      />
+
+      <VerticalNavLink
+        :item="{
+          title: 'Restaurants',
+          icon: 'bx-universal-access',
+          to: '',
+        }"
+      />
+
       <VerticalNavSectionTitle
         :item="{
           heading: 'Access Control',
