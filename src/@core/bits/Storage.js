@@ -1,4 +1,4 @@
-const generator = key => 'multi_mart_' + key
+const generator = key => 'multi_vendor_' + key
 
 export default class Storage {
   static get(key, defaultValue = '') {
