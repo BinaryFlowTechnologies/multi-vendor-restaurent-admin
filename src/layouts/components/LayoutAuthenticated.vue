@@ -132,6 +132,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
 import Footer from '@/layouts/components/Footer.vue'
 import NavbarThemeSwitcher from '@/layouts/components/NavbarThemeSwitcher.vue'
 import UserProfile from '@/layouts/components/UserProfile.vue'
+import VerticalNavGroup from "@layouts/components/VerticalNavGroup.vue"
 </script>
 
 <style lang="scss" scoped>
